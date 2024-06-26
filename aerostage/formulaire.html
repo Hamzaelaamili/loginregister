@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://upload.wikimedia.org/wikipedia/ar/archive/9/94/20231126101248%21%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8_%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A_%D9%84%D9%84%D9%85%D8%B7%D8%A7%D8%B1%D8%A7%D8%AA.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+<div class="contact-container">
+    <form action="https://api.web3forms.com/submit" method="POST" enctype="multipart/form-data" class="contact-left">
+        <div class="contact-left-title">
+            <h2>Registration Form</h2>
+            <hr>
+        </div>
+        <input type="hidden" name="access_key" value="2d0c228c-60a0-4b12-a241-24fea3827c8a">
+        <input type="text" name="name" placeholder="Your complete name" class="contact-inputs" required>
+        <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+        <input type="text" name="name university" placeholder="The name of the higher school / university" class="contact-inputs" required>
+        <input type="text" name=" level/Niveau" placeholder="Your Study level" class="contact-inputs" required>
+        <input type="text" name="Specialité" placeholder="Your specialty" class="contact-inputs" required>
+        <label> Les types des stages </label>
+        <select name="stage_type" required>
+            <option value="" disabled selected>Select Type</option>
+            <option value="Stage PFE">Stage PFE</option>
+            <option value="Stage ouvrier">Stage ouvrier</option>
+            <option value="Stage Technique">Stage Technique</option>
+            <option value="Stage de Recherche">Stage de Recherche</option>
+            <textarea name="message" placeholder="Your message" class="contact-inputs" required></textarea>
+        </select>
+            <button type="submit">Submit </button>  
+        </form>
+</div>
+</body>
+</html>
